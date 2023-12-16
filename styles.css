@@ -61,6 +61,13 @@
   gap: 20px;
   padding: 10px 40px;
 }
+@media (max-width: 991px) {
+  .nav-button {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+}
+
 .nav-button img {
   color: white;
   width: 24px;
@@ -70,6 +77,21 @@
 .nav-button-text {
   color: white;
   font-size: large;
+}
+@media (max-width: 991px) {
+  .nav-button-text {
+    color: #242e49;
+    font: bold;
+  }
+}
+
+.nav_main {
+  display: flex;
+}
+@media (max-width: 991px) {
+  .nav_main {
+    display: none;
+  }
 }
 
 .section-hero {
@@ -88,17 +110,10 @@
   flex-direction: column;
   width: 400px;
   line-height: 65px;
-  /* left: 42px;
-  top: 12px; */
+
   left: 180px;
   top: -260px;
 }
-/* @media (max-width: 991px) {
-  .hero-intro-div {
-    left: 18px;
-    top: -340px;
-  }
-} */
 
 .section-hero {
   position: relative;
